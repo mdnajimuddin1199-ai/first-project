@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: darkgray;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
