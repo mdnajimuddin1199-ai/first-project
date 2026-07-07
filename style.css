@@ -4,13 +4,19 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    margin: auto;
     padding: 2rem 0rem;
+    
+}
+.main-color{
+    background: #fff8f3;
 }
 .r{
     color: #fd6e0aFF;
@@ -32,4 +38,61 @@ ul li a{
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
+    outline: none;
+}
+.second-btn{
+    padding: .4rem .8rem;
+    font-size: .9rem;
+    border: 1px solid #fd6e0aFF;
+    border-radius: 5px ;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-p-1{
+    font-size:1.4rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.hero-p-2{
+    padding: 1rem 0rem;
+}
+.hero-left button{
+margin-bottom: 2rem;
+}
+.hero{
+    height: 50vh;
+}
+.hiro-right img{
+width: 70%;
+}
+
+/* about section design */
+.about-section{
+    
+    margin: 7rem auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.about{
+    text-align: center;
+    
+}
+.about-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1em;
+}
+.about h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
